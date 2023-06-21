@@ -1,6 +1,8 @@
 *{
     padding: 0%;
     margin: 0%;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 #title{
@@ -16,12 +18,12 @@ img{
     height: auto;
     margin: auto;
     display: block;
-    padding-bottom: 25px;
+    padding-bottom: 0;
 }
 
 p{
     text-align: center;
-    padding: 25px;
+    padding: 15px;
 }
 
 main{
@@ -29,14 +31,37 @@ main{
     border: 1px solid white;
     margin: 27px 5px;
     border-radius: 5px;
-    background-color: #bebebe;
+    background-color: #ededed;
 }
 
 #img-div{
     border: 1px solid white;
     background-color: white;
+    padding: 0;
+    margin: 0;
 }
 
-#img-caption{
-    margin: 15px 0 5x 0;
+.headline{
+    text-align: center;
+    padding: 3.0rem;
+}
+
+ul{
+    max-width: 500px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+li{
+    display: list-item;
+    margin: 16px 0;
+}
+
+.PM{
+    max-width: 500px;
+    margin: auto;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 1px;
+    max-width: 545px;
 }
